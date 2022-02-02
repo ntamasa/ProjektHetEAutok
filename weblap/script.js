@@ -118,7 +118,7 @@ function Katt() {
         var volks = Math.round(ido/(4.5*60)*190*100)/100
         if (volks <= 328)
     {
-        ertek.innerHTML = volks+" km"+
+        ertek.innerHTML = volks+" km"
         ertek.innerHTML += '<br><img src="images/volks.jpg" alt="Volkswagen e-Golf" title="Volkswagen e-Golf"></img>'
     }
     else
