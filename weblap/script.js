@@ -28,7 +28,7 @@ function Katt() {
         var bmw = Math.round(ido/(4.5*60)*232*100)/100
         if (bmw <= 232)
         {
-            ertek.innerHTML = bmw+" km"+" (max)"
+            ertek.innerHTML = bmw+" km"
             ertek.innerHTML += '<br><img src="images/bmw.jpg" alt="BMW i3s 120Ah" title="BMW i3s 120Ah"></img>'
         }
         else
@@ -43,7 +43,7 @@ function Katt() {
         var fiat = Math.round(ido/(4*60)*130*100)/100
         if (fiat <= 130)
         {
-            ertek.innerHTML = fiat+" km"+" (max)"
+            ertek.innerHTML = fiat+" km"
         ertek.innerHTML += '<br><img src="images/fiat.jpg" alt="Fiat 500e" title="Fiat 500e"></img>'
         }
         else 
@@ -58,7 +58,7 @@ function Katt() {
         var hyu = Math.round(ido/(6.25*60)*294*100)/100
         if (hyu <= 294)
         {
-            ertek.innerHTML = hyu+" km"+" (max)"
+            ertek.innerHTML = hyu+" km"
             ertek.innerHTML += '<br><img src="images/hyu.jpg" alt="Hyundai Ioniq" title="Hyundai Ioniq"></img>' 
         }
         else
@@ -73,7 +73,7 @@ function Katt() {
         var nissan = Math.round(ido/(9.25*60)*172*100)/100
         if (nissan <= 172)
         {
-            ertek.innerHTML = nissan+" km"+" (max)"
+            ertek.innerHTML = nissan+" km"
         ertek.innerHTML += '<br><img src="images/nissan.jpg" alt="Nissan Leaf" title="Nissan Leaf"></img>'
         }
         else
@@ -88,7 +88,7 @@ function Katt() {
         var renault = Math.round(ido/(2*60)*248*100)/100
         if (renault <= 248)
         {
-            ertek.innerHTML = renault+" km"+" (max)"
+            ertek.innerHTML = renault+" km"
         ertek.innerHTML += '<br><img src="images/renault.jpg" alt="Renault Zoe" title="Renault Zoe"></img>'
         }
         else
@@ -103,7 +103,7 @@ function Katt() {
         var tesla = Math.round(ido/(5.75*60)*328*100)/100
         if (tesla <= 328)
         {
-            ertek.innerHTML = tesla+" km"+" (max)"
+            ertek.innerHTML = tesla+" km"
             ertek.innerHTML += '<br><img src="images/tesla.jpg" alt="Tesla Model 3" title="Tesla Model 3"></img>' 
         }
         else
@@ -118,7 +118,7 @@ function Katt() {
         var volks = Math.round(ido/(4.5*60)*190*100)/100
         if (volks <= 328)
     {
-        ertek.innerHTML = volks+" km"+" (max)"
+        ertek.innerHTML = volks+" km"+
         ertek.innerHTML += '<br><img src="images/volks.jpg" alt="Volkswagen e-Golf" title="Volkswagen e-Golf"></img>'
     }
     else
